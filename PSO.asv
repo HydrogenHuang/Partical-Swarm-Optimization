@@ -1,0 +1,18 @@
+function PSO
+%
+
+N = 3;%the size of swarm
+D = 2;%the dimension
+w = 0.5;%inertia weight
+c1 = c2 = 2.0;%acceleration coefficient
+R_max = 10;%range
+NC_max = 500;%maximun of times
+syms r1 r2;
+%initialize
+position = rand(N,2).*20-10;
+velocity = rand
+
+function f=adapt_Fun(x)
+f=sum(x.^2);
+
+function v=vel_fun
